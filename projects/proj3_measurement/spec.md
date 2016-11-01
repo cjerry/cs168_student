@@ -178,7 +178,7 @@ The text file contains text output from the traceroute command, and the json fil
 
 **Experiments**
 
-a) For part a, you will look at the routing behvaior to the following websites: google.com, facebook.com, www.berkeley.edu, allspice.lcs.mit.edu, todayhumor.co.kr, www.city.kobe.lg.jp, www.vutbr.cz, zanvarsity.ac.tz. For this experiment, please try to run traceroute from campus. You should run `traceroute.py` 5 times (with 5 packets each time), and each consecutive run should be at least 1 hour apart.
+a) For part a, you will look at the routing behavior to the following websites: google.com, facebook.com, www.berkeley.edu, allspice.lcs.mit.edu, todayhumor.co.kr, www.city.kobe.lg.jp, www.vutbr.cz, zanvarsity.ac.tz. For this experiment, please try to run traceroute from campus. You should run `traceroute.py` 5 times (with 5 packets each time), and each consecutive run should be at least 1 hour apart.
 You should generate a json file named `tr_a.json`.
 This file should be 5 lines long, where *each line* is a single run of `traceroute.py` on the above websites. You should be able to generate this file by appending output from your script to `tr_a.json`.
 
